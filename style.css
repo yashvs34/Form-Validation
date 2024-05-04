@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    margin-top: 70px;
+}
+
+#title_container{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#firstName_container,#lastName_container,#email_container,#password_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#firstName,#lastName,#password,#email{
+    height: 30px;
+}
+
+#button_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    font-weight: 700;
+    background-color: rgb(255, 81, 81);
+    color: white;
+    height: 30px;
+    width: 30em;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: rgb(168, 62, 62);
+    transition-duration: 200ms;
+}
+
+button:active{
+    background-color: red;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+}
